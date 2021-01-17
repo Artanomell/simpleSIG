@@ -58,7 +58,7 @@ g = []
 org = []
 s = 0
 while start < (len(text)):
-    cn1 = text.find('Subject : ', start)
+    cn1 = text.find(sname, start)
     if cn1 == -1:
         break
     cn2 = text.find('\n', cn1)
